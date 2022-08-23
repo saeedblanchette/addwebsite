@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet" type="text/css"/>
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    </head>
+    <body>
+        <nav class="flex  container px-16 mx-auto  mx-auto">
+            <div class="m-auto p-10">
+                <img src="logoSite-2.gif" width="330" alt="ds" class="m-auto"/>
+            </div>
+            <div class="basis-9/12 justify-between">
+                <div class="my-6 flex justify-end border-b border-red-500   p-5">
+                    <div class="form-control w-2/3">
+                        <div class="input-group w-full ">
+                            <input type="text" placeholder="Search…" class="input input-bordered w-1/2"/>
+                            <button class="btn btn-square bg-gray-200 text-info-content">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewbox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex  text-md">
+                        <span class="m-1 p-1 font-bold underline decoration-green-600">
+                            ENG
+                        </span>
+                        <span class="m-1 p-1 font-bold">
+                            FR
+                        </span>
+                    </div>
+
+                </div>
+                <ul class="menu menu-horizontal bg-base-100 rounded-box p-2 w-full justify-start">
+                    <li class=" hover:bg-green-200">
+                        <a>Home page</a>
+                    </li>
+                    <!-- tabindex will make the parent menu focusable to keep the submenu open if it's focused -->
+                    <li tabindex="0">
+                        <span class="hover:bg-green-800 hover:text-base-100">Our story</span>
+                        <ul class="rounded-box bg-base-100 p-2 bg-blue-900 text-base-100 opacity-60">
+                            <li>
+                                <a>Tribute to the founder</a>
+                            </li>
+                            <li>
+                                <a>Management</a>
+                            </li>
+                            <li>
+                                <a>Commitments</a>
+                            </li>
+                            <li>
+                                <a>Key Dates</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>Activities</a>
+                    </li>
+                    <li>
+                        <a>Brands</a>
+                    </li>
+                    <li>
+                        <a>Investors</a>
+                    </li>
+                    <li>
+                        <a>Careers</a>
+                    </li>
+                    <li>
+                        <a>Media</a>
+                    </li>
+                    <li>
+                        <a>Ask Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="w-full  carousel h-[90vh] ">
+            <div
+                id="item1" class="carousel-item w-full hero min-h-screen  ">
+                <!-- <img src="Capture d’écran 2022-08-22 à 19.01.25.png" class="w-full"/> -->
+                <div class="hero min-h-screen" style="background-image: url(sl1.png);">
+                    <div class="hero-overlay bg-opacity-50"></div>
+                    <div class="hero-content text-left text-neutral-content mr-80">
+                        <div class="">
+                            <h1 class="mb-5 text-5xl font-bold">At african Feed & Food
+                                <br>
+                                we have a Vision to share ...</h1>
+                            <p class="mb-5 max-w-md">Des exigences précises en terme de qualité... .</p>
+                            <button class="btn btn-primary bg-red-600 ">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="item2" class="carousel-item w-full">
+
+                <div class="hero min-h-screen" style="background-image: url(sound-business-image.jpg);">
+                    <div class="hero-overlay bg-opacity-50"></div>
+                    <div class="hero-content text-left text-neutral-content mr-80">
+                        <div class="">
+                            <h1 class="mb-5 text-5xl font-bold">A vision of sound business</h1>
+                            <p class="mb-5 max-w-md">Ce texte généré aléatoirement pour être utilisé dans les maquettes webdesign, sites internet, livres, affiches...</p>
+                            <button class="btn btn-primary bg-red-600 ">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <div id="item4" class="carousel-item w-full">
+
+                <div class="hero min-h-screen" style="background-image: url(w.jpeg);">
+                    <div class="hero-overlay bg-opacity-50"></div>
+                    <div class="hero-content text-left text-neutral-content mr-80">
+                        <div class="">
+                            <h1 class="mb-5 text-5xl font-bold">A vision of nature harmony</h1>
+                            <p class="mb-5 max-w-md">Ce texte généré aléatoirement pour être utilisé dans les maquettes webdesign, sites internet, livres, affiches..... .</p>
+                            <button class="btn btn-primary bg-red-600 ">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="item5" class="carousel-item w-full">
+                
+                <div class="hero min-h-screen" style="background-image: url(pexels-tom-fisk-3840441.jpg);">
+                    <div class="hero-overlay bg-opacity-50"></div>
+                    <div class="hero-content text-left text-neutral-content mr-80">
+                        <div class="">
+                            <h1 class="mb-5 text-5xl font-bold">A vision of common development</h1>
+                            <p class="mb-5 max-w-md">Ce texte généré aléatoirement pour être utilisé dans les maquettes webdesign, sites internet, livres, affiches..... .</p>
+                            <button class="btn btn-primary bg-red-600 ">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="relative">
+            <div class="flex justify-center w-full py-2 gap-2   absolute bottom-10">
+                <a href="#item1" class="btn btn-xs btn btn-circle">1</a>
+                <a href="#item2" class="btn btn-xs btn btn-circle">2</a>
+                <!-- <a href="#item3" class="btn btn-xs btn btn-circle">3</a> -->
+                <a href="#item4" class="btn btn-xs btn btn-circle">4</a>
+                <a href="#item5" class="btn btn-xs btn btn-circle">5</a>
+            </div>
+        </div>
+        <section class="container px-16 ">
+            <section class="flex py-16 px-4 mx-auto ">
+                <div class="">
+                    <img src='BestPract.png' width="500"/>
+                </div>
+                <div class="flex flex-col ">
+                    <p class="text-4xl m-2 p-2 h-60  leading-normal  text-gray-700">Our practices have been governed by integrity, honesty, fair dealing and full compliance with all applicable laws.</p>
+                    <h1 class="text-6xl text-red-500 font-bold m-2 p-2 h-80 leading-normal">Fulfilling safely and effectively all households needs...</h1>
+                </div>
+            </section>
+        </section>
+
+        <section class="flex py-8 px-4  w-full container px-16 mx-auto">
+
+            <img src='q1.png' class="w-full container px-16"/>
+
+        </section>
+        <section class="flex flex-col justiy-between my-10 container px-16 mx-auto">
+            <h1 class="text-4xl m-2 p-2 h-40  leading-normal  text-gray-700 m-auto text-center uppercase">A SELECTION OF OUR BRANDS</h1>
+
+            <!-- Set up your HTML -->
+            <div class="owl-carousel">
+
+                <div>
+                    <img src="kholala.png" width="200" height="200" class="h-24 w-24 object-contain ">
+                </div>
+                <div>
+                    <img src="Najma.png" width="200" height="200" class="h-24 w-24 object-contain ">
+                </div>
+                <div>
+                    <img src="Rhamna.png" width="200" height="200" class="h-24 w-24 object-contain ">
+                </div>
+                <div>
+                    <img src="Eddik.png" width="200" height="200" class="h-24 w-24 object-contain ">
+                </div>
+                <div>
+                    <img src="CasaGrains.png" width="200" height="200" class="h-24 w-24 object-contain ">
+                </div>
+
+            </div>
+            <button class=" btn btn-primary bg-green-700 hover:bg-green-800 m-auto my-10  ">View all brands</button>
+        </section>
+        <section class="media flex flex-col justiy-between py-2 my-6 container px-16 mx-auto">
+            <h1 class="text-4xl m-2 p-2 h-40  leading-normal  text-gray-700 m-auto text-center uppercase">media</h1>
+
+            <div class="flex  justify-between ">
+                <div class="cart p-6 shadow-2xl m-2 w-96  ">
+                    <img src="Capture d’écran 2022-08-17 à 17.19.44.png" width="350" height="450" class=" m-auto rounded-bl-3xl rounded-br-3xl object-fill h-80">
+                    <div class=" py-2">
+                        <h3 class="font-bold text-lg  pt-2 ">recettes</h3>
+                        <p class="text-gray-700   ">Ce texte genere aleatoirement pour etre utilise dans les maquettes webdesign sites internet livres, affiches</p>
+                    </div>
+
+                    <a class="text-gray-700 text-sm py-2  ">Read more
+                        <i class="fa-solid fa-play mx-2"></i>
+                    </a>
+                </div>
+                <div class="cart p-6 shadow-2xl  m-2 w-96  ">
+                    <img src="Capture d’écran 2022-08-17 à 17.19.44.png" width="350" class=" m-auto rounded-bl-3xl rounded-br-3xl object-fill h-80">
+                    <div class=" py-2">
+                        <h3 class="font-bold text-lg  pt-2 ">Articles</h3>
+                        <p class="text-gray-700   ">Ce texte genere aleatoirement pour etre utilise dans les maquettes webdesign sites internet livres, affiches</p>
+                    </div>
+
+                    <a class="text-gray-700 text-sm py-2  ">Read more
+                        <i class="fa-solid fa-play mx-2"></i>
+                    </a>
+                </div>
+                <div class="cart p-6 shadow-2xl  m-2 w-96  ">
+                    <img src="Capture d’écran 2022-08-17 à 18.03.49.png" width="350" height="450" class=" m-auto rounded-bl-3xl rounded-br-3xl object-fill h-80">
+                    <div class=" py-2">
+                        <h3 class="font-bold text-lg  pt-2 ">Event</h3>
+                        <p class="text-gray-700   ">Ce texte genere aleatoirement pour etre utilise dans les maquettes webdesign sites internet livres, affiches</p>
+                    </div>
+
+                    <a class="text-gray-700 text-sm py-2  ">Read more
+                        <i class="fa-solid fa-play mx-2"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <section class="media container px-16 mx-auto mt-20">
+
+            <div class="flex  justify-between">
+                <div class="cart p-6 shadow-2xl m-2 w-80   ">
+                    <img src="C1.png" width="350" height="450" class=" m-auto rounded-bl-3xl rounded-br-3xl object-fill h-56">
+                    <div class=" py-2">
+                        <h3 class="font-bold text-xl  py-3  text-center text-gray-700">Sustainable solutions</h3>
+                        <p class="text-gray-700  text-center ">Lorem ipsum dolor sit amet consectetur adipiscing elito Sllamcorper est massa pretium   egetas Sagittis nulla cursus Lorem ipsum dolor sit amet</p>
+                    </div>
+
+
+                </div>
+                <div class="cart p-6 shadow-2xl m-2 w-80   ">
+                    <img src="C2.png" width="350" height="450" class=" m-auto rounded-bl-3xl rounded-br-3xl object-fill h-56">
+                    <div class=" py-2">
+                        <h3 class="font-bold text-xl  py-3  text-center text-gray-700">Strategic synergy</h3>
+                        <p class="text-gray-700  text-center ">Lorem ipsum dolor sit amet consectetur adipiscing elito Sllamcorper est massa pretium   egetas Sagittis nulla cursus Lorem ipsum dolor sit amet</p>
+                    </div>
+
+
+                </div>
+                <div class="cart p-6 shadow-2xl m-2 w-80   ">
+                    <img src="C3.png" width="350" height="450" class=" m-auto rounded-bl-3xl rounded-br-3xl object-fill h-56">
+                    <div class=" py-2">
+                        <h3 class="font-bold text-xl  py-3  text-center text-gray-700">Business activities</h3>
+                        <p class="text-gray-700  text-center ">Lorem ipsum dolor sit amet consectetur adipiscing elito Sllamcorper est massa pretium   egetas Sagittis nulla cursus Lorem ipsum dolor sit amet</p>
+                    </div>
+
+
+                </div>
+                <div class="cart p-6 shadow-2xl m-2 w-80   ">
+                    <img src="C4.png" width="350" height="450" class=" m-auto rounded-bl-3xl rounded-br-3xl object-fill h-56">
+                    <div class=" py-2">
+                        <h3 class="font-bold text-xl  py-3  text-center text-gray-700">Useful innovation</h3>
+                        <p class="text-gray-700  text-center ">Lorem ipsum dolor sit amet consectetur adipiscing elito Sllamcorper est massa pretium   egetas Sagittis nulla cursus Lorem ipsum dolor sit amet</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <footer class="mt-10  ">
+            <div class="flex bg-yellow-100 container px-16">
+                <div class="m-auto p-10">
+                    <img src="logoSite-2.gif" width="330" alt="ds" class="m-auto"/>
+                </div>
+                <footer class="footer grid-rows-2 p-10  ">
+                    <div class=" border-t-6 border-t border-yellow-500">
+                        <span class="footer-title">HOME PAGE</span>
+                        <a class="link link-hover">Branding</a>
+                        <a class="link link-hover">Design</a>
+                        <a class="link link-hover">Marketing</a>
+                        <a class="link link-hover">Advertisement</a>
+                    </div>
+                    <div class=" border-t-6 border-t border-yellow-500">
+                        <span class="footer-title">OUR STORY</span>
+                        <a class="link link-hover">About us</a>
+                        <a class="link link-hover">Contact</a>
+                        <a class="link link-hover">Jobs</a>
+                        <a class="link link-hover">Press kit</a>
+                    </div>
+                    <div class=" border-t-6 border-t border-yellow-500">
+                        <span class="footer-title">ACTIVITIES</span>
+                        <a class="link link-hover">Terms of use</a>
+                        <a class="link link-hover">Privacy policy</a>
+                        <a class="link link-hover">Cookie policy</a>
+                    </div>
+                    <div class=" border-t-6 border-t border-yellow-500">
+                        <span class="footer-title">INVESTORS</span>
+                        <a class="link link-hover">Twitter</a>
+                        <a class="link link-hover">Instagram</a>
+                        <a class="link link-hover">Facebook</a>
+                        <a class="link link-hover">Github</a>
+                    </div>
+                    <div class=" border-t-6 border-t border-yellow-500">
+                        <span class="footer-title">BRANDS</span>
+                        <a class="link link-hover">Features</a>
+                        <a class="link link-hover">Enterprise</a>
+                        <a class="link link-hover">Security</a>
+
+                    </div>
+
+                </footer>
+            </div>
+            <div class="flex  justify-center  ">
+                <button class="btn btn-circle bg-red-500 text-neutral-content m-1 my-2">
+                    <i class="fa-brands  fa-facebook "></i>
+                </button>
+
+                <button class="btn btn-circle bg-red-500 text-neutral-content m-1 my-2">
+                    <i class="fa-brands  fa-instagram"></i>
+                </button>
+
+                <button class="btn btn-circle bg-red-500 text-neutral-content m-1 my-2">
+                    <i class="fa-brands  fa-tiktok"></i>
+                </button>
+
+                <button class="btn btn-circle bg-red-500 text-neutral-content m-1 my-2">
+                    <i class="fa-brands  fa-youtube"></i>
+                </button>
+
+            </div>
+            <div class="text-center p-10">
+                2022 Arica Feed and Food
+                                                                                                                                                |
+                                                                                                                                                Site map
+                                                                                                                                                | Help
+                                                                                                                                                |
+                                                                                                                                                Privacy
+                                                                                                                                                Cookies
+                                                                                                                                                |
+                                                                                                                                                Terms of use
+                                                                                                                                                | Social media
+                                                                                                                                                Accessibility
+                                                                                                                                                RSS
+                                                                                                                                                | Sign me up
+                                                                                                                                                ! Unsubscribe
+                                                                                                                                                | Contact Us
+            </div>
+        </footer>
+    </body>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                center: true,
+                items: 1,
+                autoplay: true,
+                loop: true,
+                margin: 10,
+                responsive: {
+                    10: {
+                        items: 2
+                    }
+                }
+            });
+            // $(".carousel").owlCarousel({
+            //     center: true,
+            //     loop: true,
+            //     items: 1,
+            //     dots: true , autoplay: true,
+            //     loop: true,
+            //     margin: 10
+            //     responsive: {
+            //         10: {
+            //             items: 1
+            //         }
+            //     }
+            // });
+        });
+    </script>
+</html>
